@@ -14,6 +14,7 @@
 </body>
 <script>
     document.onkeydown = function(e) {
+        //监听Enter回车点击
         e = e || window.e;
         if (e.keyCode === 13) {
             location.assign('/admin/');
